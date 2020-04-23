@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.imagem {
+    background-image: url(https://i.imgur.com/6sDxWsF.jpg);
+    min-height: 657px;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(35%) grayscale(60%);
+}
+
+.row {
+    position: absolute;
+    top: 25%;
+    left: 12%;
+}
+
+.text-center {
+    color: palegoldenrod;
+}
